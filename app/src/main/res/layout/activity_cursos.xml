@@ -5,6 +5,108 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".CursosActivity">
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="382dp"
+        android:layout_height="510dp"
+        android:background="#B8CE89"
+        android:backgroundTint="#86B888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="382dp"
+        android:layout_height="510dp"
+        android:background="#B8CE89"
+        android:backgroundTint="#86B888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registrar"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registrar"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="291dp"
+        android:layout_height="33dp"
+        android:text="Como  entranar su perro para que se siente"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="163dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/asdasd"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Como entrenar un perro para que se quede quieto"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  como hacer que perros y gatos sean amigos"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="registrar"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="179dp"
+        android:layout_height="81dp"
+        android:src="@drawable/descarga"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="77dp"
+        android:layout_height="117dp"
+        android:src="@drawable/descarga__1_"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="204dp"
+        android:layout_height="95dp"
+        android:src="@drawable/descarga__2_"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="589dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
