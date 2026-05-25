@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetTrainer">
         <activity
+            android:name=".perfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistrovacunacionActivity"
             android:exported="false" />
         <activity
