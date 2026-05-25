@@ -6,17 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class RegistrovacunacionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Activa el diseño de pantalla completa (Edge-to-Edge)
         enableEdgeToEdge()
-
-        // Carga tu diseño XML (donde está tu logo)
-        setContentView(R.layout.activity_main)
-
-        // Aplica márgenes automáticos para que las barras del sistema no tapen tu logo
+        setContentView(R.layout.registrovacunacion)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
